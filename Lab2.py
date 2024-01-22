@@ -34,6 +34,6 @@ def human_to_horse_age(human_age):
     return horse_age_years, horse_age_months, horse_age_days
 
 # Example usage
-user_human_age = float(input("Enter your age: "))
+user_human_age = float(input("Enter your age on Pythoid: "))
 horse_age_result = human_to_horse_age(user_human_age)
 print(f"The horse age is {horse_age_result[0]} years, {horse_age_result[1]} months, and {horse_age_result[2]} days.")
